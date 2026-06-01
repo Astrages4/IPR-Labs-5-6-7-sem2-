@@ -105,3 +105,5 @@ kubectl delete namespace lab6-dev
 helm uninstall prometheus -n observability
 kubectl delete namespace observability
 ```
+
+.
