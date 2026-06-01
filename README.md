@@ -68,3 +68,4 @@
 *   **`ModuleNotFoundError`:** Проблема отсутствия `fastapi` и `uvicorn` была решена их добавлением в `requirements.txt`.
 *   **Проблема с кэшированием образа:** Необновляемый образ в Docker Desktop был "побежден" использованием версионированных тегов (`:v1`, `:v2`...).
 *   **Ошибки Ingress и Metrics Server:** Проблемы решены ожиданием полной готовности подов и добавлением флага `--kubelet-insecure-tls` для Metrics Server в среде Docker Desktop.
+*   
